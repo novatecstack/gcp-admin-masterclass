@@ -8,4 +8,6 @@
 
 ## 4. Batch
 
-## 5. VMware Engine
+## 5. Cloud Functions
+
+## 6. Cloud Run
