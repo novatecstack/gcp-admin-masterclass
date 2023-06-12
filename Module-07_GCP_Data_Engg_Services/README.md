@@ -2,9 +2,14 @@
 In this we will explore below topics in details:
 
 ## 1. GCP Data Engineering Services Overview
-## 2. Google Cloud Storage
-## 3. Data Transfer Services
-## 4. Cloud Block Storage
+## 2. Cloud Storage (for binary data)
+## 3. Cloud Block Storage
+   - Direct Attached - Local SSD
+   - Network Attached - Persistent Disk
+## 4. Data Transfer Services
+   - Storage Transfer Service
+   - gsutil
+   - Transfer Appliance (> 20 TB data OR more than a week to migrate)
 ## 5. GCP Database Services (SQL)
    - Cloud SQL
    - Cloud Spanner
