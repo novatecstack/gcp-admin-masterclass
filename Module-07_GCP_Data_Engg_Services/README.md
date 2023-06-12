@@ -13,22 +13,22 @@ Here, we will try to learn how to enable data-driven decision making by collecti
    - Data Engineering ultimately aims at providing ordered and consistent data flow to permit the processing of data.
    ![image](https://github.com/novatecstack/gcp-admin-masterclass/assets/121426292/7936cdee-bbbd-4d3f-86ad-376d237cd189)
 
-## 2. Cloud Storage (for binary data)
+## [2. Cloud Storage](https://cloud.google.com/storage)
 ## 3. Cloud Block Storage
    - Direct Attached - <b>*Local SSD*</b>
    - Network Attached - <b>*Persistent Disk*</b>
 ## 4. Data Transfer Services
-   - <b>*Storage Transfer Service*</b>
-   - <b>*gsutil*</b>
-   - <b>*Transfer Appliance*</b> (> 20 TB data OR more than a week to migrate)
+   - [<b>*Storage Transfer Service*</b>](https://cloud.google.com/storage-transfer-service)
+   - [<b>*gsutil*</b>]()
+   - [<b>*Transfer Appliance*</b> (> 20 TB data OR more than a week to migrate)](https://cloud.google.com/transfer-appliance/docs/4.0/overview)
 ## 5. GCP Database Services (SQL)
-   - <b>*Cloud SQL*</b>
-   - <b>*Cloud Spanner*</b>
+   - [<b>*Cloud SQL*</b>]()
+   - [<b>*Cloud Spanner*</b>]()
 ## 6. GCP Database Services (NoSQL)
-   - <b>*Cloud MemoryStore*</b> 
-   - <b>*Cloud FileStore*</b>
-   - <b>*Cloud DataStore*</b>
-   - <b>*Cloud BigTable*</b>
+   - [<b>*Cloud MemoryStore*</b>]()
+   - [<b>*Cloud FileStore*</b>]()
+   - [<b>*Cloud DataStore*</b>]()
+   - [<b>*Cloud BigTable*</b>]()
 ## 7. GCP Data Processing Services
    - [<b>*Cloud BigQuery*</b>](https://cloud.google.com/bigquery)
      - Google BigQuery is a serverless, fully managed cloud data warehouse service offered by Google. 
