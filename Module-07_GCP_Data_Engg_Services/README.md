@@ -1,7 +1,7 @@
 # Google Cloud Data Engineering, and Analytics
 In this module, we will learn how to design and build data processing systems. With Google Cloud services, you can seamlessly leverage data and gain real-time insights that improve your decision-making and accelerate innovation.
 
-## 1. GCP Data Engineering Services Overview
+## 1. Overview
 ## 2. Cloud Storage (for binary data)
 ## 3. Cloud Block Storage
    - Direct Attached - Local SSD
