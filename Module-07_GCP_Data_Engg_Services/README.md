@@ -15,8 +15,8 @@ Here, we will try to learn how to enable data-driven decision making by collecti
 
 ## [2. Cloud Storage](https://cloud.google.com/storage)
 ## 3. Cloud Block Storage
-   - Direct Attached - <b>*Local SSD*</b>
-   - Network Attached - <b>*Persistent Disk*</b>
+   - Direct Attached - [<b>*Local SSD*</b>](https://cloud.google.com/compute/docs/disks/local-ssd)
+   - Network Attached - [<b>*Persistent Disk and Hyperdisk*</b>](https://cloud.google.com/compute/docs/disks/persistent-disks)
 ## 4. Data Transfer Services
    - [<b>*Storage Transfer Service*</b>](https://cloud.google.com/storage-transfer-service)
    - [<b>*gsutil*</b>]()
@@ -43,7 +43,11 @@ Here, we will try to learn how to enable data-driven decision making by collecti
      - Dataproc Automation allows you to easily create clusters, manage them, and save money by turning clusters off when they aren't in use. 
    - [<b>*Cloud DataFusion*</b>](https://cloud.google.com/data-fusion)
      - Cloud Data Fusion is a fully managed, cloud-native enterprise data integration service that allows you to create and maintain data pipelines rapidly. 
-     - It also supports a visual point-and-click interface that enables code-free deployment of ETL/ELT data pipelines. 
+     - It also supports a visual point-and-click interface that enables code-free deployment of ETL/ELT data pipelines.
+     - +150 preconfigured connectors and tranformations
+     - Build with open-source CDAP (Cask Data Application Platform, an open source application development platform for the Hadoop ecosystem)
+     - There are three editions are available: Basic, Developer and Enterprise
+     - [Pricing](https://cloud.google.com/data-fusion/pricing)
    - [<b>*Cloud DataComposer*</b>](https://cloud.google.com/composer)
      - Cloud Composer is a fully managed data workflow orchestration tool that lets you write, schedule, and track pipelines. 
      - It is built on the *Apache Airflow* open source project and operated using Python. 
