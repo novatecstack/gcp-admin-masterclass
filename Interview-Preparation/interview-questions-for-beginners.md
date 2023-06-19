@@ -37,7 +37,8 @@
   30. What are the runtimes (programming languages) does Google App Engine supports? (Go | PHP | Java | Python | Node.js | Ruby | .NET)
   31. What is Google Kubernetes Engine? Explain about Data plain and Control plain components. </br>
   Google Kubernetes Engine is a powerful cluster manager and orchestration system for running Docker containers. It is designed to make it easy to deploy and manage containerized applications at scale. </br>
-  32. How does the scheduling of workloads happen in GKE?
+  32. How does the scheduling of workloads happen in GKE? </br>
+  Workloads in GKE are scheduled using the Kubernetes scheduler. The scheduler looks at the resources that are required by each workload and then tries to find the best place to run it based on available resources. </br>
   33. Can you explain what a *Pod* is in the context of GKE? Explain some key features of Pod with one real world example.</br>
   A pod is a group of one or more containers that are deployed together on a single node in a Google Kubernetes Engine cluster. Pods are the smallest deployable units in GKE and are used to encapsulate and isolate application containers.</br>
   35. What is a deployment controller? Explain with example.</br>
@@ -52,23 +53,29 @@
       - *Number of replicas*: This parameter determines how many copies of your application will be running. More replicas will generally mean better performance, but it also depends on your application and how it scales.
 
       - *CPU and memory limits*: These parameters determine the maximum amount of resources that your application can use. If your application exceeds these limits, it may be throttled or even killed.
-      - *The Image*: The base image that your application is built on can also affect performance. For example, using a lightweight image like Alpine Linux can help improve performance.
-</br>
-  41. Can you give me some examples of real-world applications that use Google Kubernetes Engine? </br>
+      - *The Image*: The base image that your application is built on can also affect performance. For example, using a lightweight image like Alpine Linux can help improve performance</br>
+  40. Can you give me some examples of real-world applications that use Google Kubernetes Engine? </br>
       - Netflix, Etsy, The New York Times, Spotify, Ubisoft </br>
-  43. What is a cluster and how does it relate to GKE?</br>
+      
+  41. What is a cluster and how does it relate to GKE?</br>
   A cluster in GKE is a group of Compute Engine instances that you can manage as a single unit. Clusters can range in size from a single instance to thousands of instances. You can use clusters to improve the availability and performance of your applications.</br>
-  44. Where does GKE store node configuration data? </br>
+  
+  42. Where does GKE store node configuration data? </br>
   GKE stores node configuration data in JSON files called “config maps.” These config maps are stored in a GKE-specific location in Google Cloud Storage (GCS).</br>
-  45. What is a master node and how does it differ from other types of nodes in GKE?</br>
-  A *Master node* in GKE cluster is responsible for managing the cluster and all of the workloads running on it. Other types of nodes in GKE include worker nodes, which are used to run applications and services, and infra nodes, which are used to manage and monitor the cluster.
-  46. What happens if a node goes down while running containers on GKE? Is there any way to prevent this from happening?</br>
+  
+  43. What is a master node and how does it differ from other types of nodes in GKE?</br>
+  A *Master node* in GKE cluster is responsible for managing the cluster and all of the workloads running on it. Other types of nodes in GKE include worker nodes, which are used to run applications and services, and infra nodes, which are used to manage and monitor the cluster.</br>
+  
+  44. What happens if a node goes down while running containers on GKE? Is there any way to prevent this from happening?</br>
   If a node goes down while running containers on GKE, the containers will be automatically restarted on another node in the cluster. There is no way to prevent this from happening, but it is not typically a cause for concern as the containers will be quickly restarted on another node. </br>
-  47. 
+  
+  45. 
 </details>
 <details>
- <summary> <b> Intermediate Level Questions :computer: </b>  </summary>
+ <summary> <b> Intermediate Level Questions ⚙️ </b>  </summary>
   
-  1. 
-  2. 
- </details>
+</details>
+<details>
+ <summary> <b> Expert Level Questions :gem: </b>  </summary>
+  
+ </details> 
