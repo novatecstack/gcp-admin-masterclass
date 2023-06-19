@@ -8,10 +8,15 @@
   2. Explain various cloud service models.
   
   3. Explain various cloud deployment models.
+ 
   4. Explain difference between Google Cloud, Google Cloud Platform and GSuite.
+ 
   5. Explain GCP Global Infrastructure terminologies: Region, Availability Zone
+ 
   6. Explain Regional services vs Global Services 
+ 
   7. Explain Regional Resources vs Global Resources vs Zonal Resources
+ 
   8. How pricing works with Google Cloud Platform services? | Billing Account
   9. What is GCP CloudShell and when to use?
   10. What is GCP SDK? 
@@ -68,8 +73,20 @@
   
   44. What happens if a node goes down while running containers on GKE? Is there any way to prevent this from happening?</br>
   If a node goes down while running containers on GKE, the containers will be automatically restarted on another node in the cluster. There is no way to prevent this from happening, but it is not typically a cause for concern as the containers will be quickly restarted on another node. </br>
-  
-  45. 
+  45. Identity and Access Management
+  46. Virtual Private Cloud (VPC)
+  47. Cloud Storage, Filestore
+  48. Cloud SQL
+  49. Cloud Spanner
+  50. Cloud Storage Transfer Service
+  51. Google BigQuery
+  52. Google Kubernetes Engine, Google Container Registery
+  53. Cloud MemoryStore, Cloud FileStore, Cloud DataStore, Cloud BigTable
+  54. Cloud Dataprep
+  55. Cloud Functions, Cloud Run
+  56. Cloud Scheduler, Cloud Task
+  57. Cloud Monitoring, Cloud Logging, Trace, Profiler
+  58. CI CD Services: Cloud Build, Cloud Deploy, Container Registry
 </details>
 <details>
  <summary> <b> Intermediate Level Questions ⚙️ </b>  </summary>
