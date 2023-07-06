@@ -1,9 +1,20 @@
 # 20. The gcloud reference
   The gcloud CLI manages authentication and local configuration, as well as your interaction with the Google Cloud Platform APIs.
 
-
+- Authenticate in gcloud (sign-in to Google Cloud Account). Inside the SSH session, run:
+  ```
+  gcloud auth login
+  ```
+- Check your current gcloud configuration. Inside the SSH session run:
+  ```
+  gcloud config list
+  ```
 ## Identity and Access Management (IAM)
-  
+- View all the roles, run the following inside the SSH session run:
+  ```
+  gcloud iam roles list | grep "name:"
+  ```
+- 
 ## Google Compute Engine (GCE)
 - To view your default region and zone
   ```
@@ -48,14 +59,40 @@ gcloud config set compute/zone ZONE
   ```
   gcloud compute instances describe VM_NAME
   ```
-- Starting VMs
+- [Starting VMs](https://cloud.google.com/compute/docs/gcloud-compute/common-commands#starting_vms)
   ```
   gcloud compute instances start VM_NAME
   ```
 - [Stopping VMs](https://cloud.google.com/compute/docs/gcloud-compute/common-commands#stopping_vms)
-  
+  ```
+  gcloud compute instances stop VM_NAME
+  ```
 ## Google Kubernetes Engine (GKE)
-  
+   ```
+   $ gcloud init --console-only # to setup default configuration
+   $ gcloud config configurations create novatecConfig # creating custom config
+   $ gcloud config configurations list
+   $ gcloud info
+   ```
+   ``` 
+   # Listing gcloud components 
+   $ gcloud components list
+
+   # if kubectl not available
+   $ gcloud components install kubectl 
+
+   $ gcloud components update                   # if required
+   ```
+   ```
+    # Create a cloud cluster
+    $ gcloud container clusters create zeus --machine-type n1-standard-2 --num-nodes 2 --zone us-central1-c
+    # Verify K8s GKE Cluster details
+    $ gcloud container clusters list
+   ```
+   ```
+   Switch to cluster novatec 
+   $ gcloud container clusters get-credentials novatec --zone us-central1-c --project novatec-python-app
+   ```
 ## Google App Engine
   
 ## Google Persistent Disk
